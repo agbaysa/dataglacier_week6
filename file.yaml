@@ -1,0 +1,20 @@
+file_type: csv
+dataset_name: file
+file_name: train2_final
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - PassengerId
+    - Survived
+    - Pclass
+    - Name
+    - Sex
+    - Age
+    - SibSp
+    - Parch
+    - Ticket
+    - Fare
+    - Cabin
+    - Embarked
